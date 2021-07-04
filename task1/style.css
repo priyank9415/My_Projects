@@ -42,7 +42,7 @@
 .navbar .nav-items:hover {
   background: rgb(189, 217, 224);
 }
-.navbar .nav-items:current {
+.navbar .nav-items:nth-child(3) {
   background: rgb(189, 217, 224);
   border-left: 5px solid blue;
 }
