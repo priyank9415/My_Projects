@@ -19,14 +19,14 @@
           <a href="#"><i class="fas fa-snowflake"></i></a>
         </div>
         <div class="nav-items">
-           <a href="#"> <i class="fas fa-user-alt"></i><br />
+           <a href="#" class="students-link"> <i class="fas fa-user-alt"></i><br />
              students</a>
         </div>
         <div class="nav-items">
-          <a href="index.html"><i class="fas fa-book-open"></i><br />Lesson Plan</a>
+          <a href="index.html" class="lesson-link"><i class="fas fa-book-open"></i><br />Lesson Plan</a>
         </div>
         <div class="nav-items">
-            <a href="#"><i class="fas fa-cog"></i><br />
+            <a href="#" class="settings-link"><i class="fas fa-cog"></i><br />
               settings</a>
         </div>
       </nav>
@@ -34,13 +34,12 @@
         <section class="top"></section>
         <section class="content">
           <h3><i class="fas fa-sort-down"></i> videos</h3>
-          <input type="text" name="url" placeholder="Insert Url here" />
+          <input type="text" name="url" id="url" placeholder="Insert Url here" />
           <h4>Or</h4>
           <input
             type="file"
             class="upload-box"
-            value="Upload"
-            placeholder="Upload"
+           id="upload"
           />
         </section>
       </main>
