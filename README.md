@@ -1,6 +1,4 @@
 # My_Projects
+This Repository contains Samples of UI Development done by me.
 
-this is work sample1 developed using HTML5 and CSS3.
-
-
- just download the task1 folder and there you will find index.html and style.css file.
+just download the folders(Task1 or EdgeLedger) and run index.html file to view it.
