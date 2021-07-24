@@ -1,0 +1,38 @@
+.navbar {
+  flex-direction: column;
+
+  padding: 3% 5%;
+}
+.options {
+  width: 80%;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.icon {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2%;
+}
+.flex-item {
+  width: 100%;
+}
+.descreption h1 {
+  font-size: 150%;
+}
+.descreption p {
+  font-size: 100%;
+}
+.cases .row2 .coloumn {
+  max-width: 100%;
+  padding: 0% 0.3%;
+  display: flex;
+  flex-flow: column;
+}
+.solution {
+  flex-direction: column;
+}
+.solution .column {
+  width: 100%;
+}

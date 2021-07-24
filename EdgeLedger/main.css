@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Qahiri&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+.primary {
+  color: #28a745;
+}
+
+.navbar {
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(78, 74, 74);
+  padding: 1% 5%;
+  opacity: 0.8;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  justify-content: space-evenly;
+}
+.options .item {
+  list-style: none;
+}
+.options .item a {
+  color: white;
+  padding: 7% 3%;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+.options .item a:hover {
+  border-bottom: 2px solid rgb(29, 182, 29);
+}
+.descreption {
+  color: white;
+  height: 90%;
+  padding-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-ser;
+}
+.descreption h1 {
+  font-size: 300%;
+}
+.descreption p {
+  font-size: 150%;
+}
+.head {
+  height: 100vh;
+  position: relative;
+  background: url("./images/city.jpeg") center center/cover;
+}
+.head::before {
+  content: "";
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.head * {
+  z-index: 1;
+}
+.navbar {
+  z-index: 2;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+.flex-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+}
+.flex-item i {
+  font-size: 150%;
+  background-color: #28a745;
+  color: white;
+  padding: 4%;
+  border-radius: 50%;
+  height: 100%;
+}
+.flex-item h3 {
+  margin-bottom: 2%;
+}
+.flex-item > div {
+  text-align: center;
+  padding: 3%;
+}
+
+.callback .fields {
+  margin: 7% 0%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.callback .fields input,
+.callback .fields input {
+  width: 100%;
+  border: none;
+  padding: 1% 2%;
+}
+form {
+  width: 95%;
+}
+.foot {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  margin-top: 1%;
+}
+.foot > div {
+  font-size: 1.5em;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  padding: 2%;
+}
+.foot > div a {
+  color: white;
+}
+.foot > div a:hover {
+  color: #28a745;
+  cursor: pointer;
+}
