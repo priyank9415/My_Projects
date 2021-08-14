@@ -1,0 +1,245 @@
+ul,
+li {
+    list-style-type: none;
+    float: right;
+}
+
+header,
+div {
+    position: relative;
+    min-height: 1px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 0;
+    overflow: auto;
+}
+
+li,
+a {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+a {
+    margin-top: 20px;
+}
+
+ul {
+    width: 100%;
+}
+
+.cart {
+    height: 35px;
+    width: 35px;
+    border-radius: 9px;
+}
+
+.flag {
+    height: 25px;
+    width: 25px;
+}
+
+header li {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.sign {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15PX;
+    margin-top: 0;
+}
+
+.BUY {
+    margin-left: 40PX;
+    margin-top: 15px;
+    color: rgb(219, 210, 197);
+    background-color: blue;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.ADD {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.abc {
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    height: 20%;
+}
+
+.shirt img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.shirtcolor img {
+    width: 21%;
+    float: left;
+    padding: 10px;
+}
+
+.descrip {
+    border: 2px aqua;
+    text-align: left;
+    margin-top: 0;
+    width: 40%;
+    float: left;
+    margin-right: 7%;
+    margin-left: 3%;
+    height: 20%;
+}
+
+table,
+tr,
+td {
+    padding: 10px;
+}
+
+select {
+    padding: 10px;
+}
+
+.blue.wrapper {
+    background-color: blue;
+    overflow: hidden;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 50%;
+    float: left;
+    color: white;
+    font-size: large;
+    padding-top: 0;
+    margin-left: 117px;
+}
+
+.logos {
+    width: 50%;
+    float: right;
+    margin-top: -37px;
+    margin-bottom: -10px;
+}
+
+.main {
+    background-color: blue;
+    height: 10px;
+}
+
+.logos ul li {
+    background-color: none;
+    padding-right: 3px;
+    padding-left: 1px;
+}
+
+.logos img {
+    height: auto;
+    width: 40px;
+}
+
+.products img {
+    max-width: 100%;
+    height: auto;
+}
+
+.products {
+    width: 24%;
+    float: left;
+    margin-left: 0%;
+    margin-right: 1%;
+    padding-left: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: gray;
+    padding-top: 28px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.wrapper {
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.review {
+    width: 33%;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.review h5 {
+    border-bottom: 3px solid rgb(46, 46, 167);
+}
+
+.review p {
+    padding-right: 20px;
+}
+
+.footer {
+    width: 23%;
+    float: left;
+    color: cornsilk;
+    margin-left: 1%;
+    padding: 0 40px;
+}
+
+.grey {
+    background-color: rgb(12, 15, 20);
+}
+
+h5,
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper h2 {
+    text-align: center;
+}
+
+.footer h2 {
+    text-align: left;
+    display: inline-block;
+}
+
+.summary {
+    padding: 0 50px;
+}
+
+.border {
+    border-bottom: 1px solid blueviolet;
+    width: 60px;
+}
